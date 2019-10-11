@@ -16,13 +16,10 @@ end
 range.each do |x|
   if int % x == 0 
   return false 
+  end
 end
 
-end
 
-  
-
-
-return prime  
+return true  
 
 end
