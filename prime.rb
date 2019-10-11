@@ -2,7 +2,7 @@
 def prime?(int)
   
 if int < 0 
-  int = int * -1 
+  return false 
 end 
 
 range = (2..int).to_a 
