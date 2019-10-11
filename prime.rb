@@ -13,6 +13,12 @@ if range.length == 1
   return true
 end
 
+range.each do |x|
+  if int % x == 0 
+  return false 
+end
+
+end
 
   
 
