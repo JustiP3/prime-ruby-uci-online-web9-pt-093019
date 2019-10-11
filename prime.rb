@@ -4,6 +4,9 @@ def prime?(int)
 if int <= 0 
   return false 
 end 
+if int == 1 
+  return true 
+end
 
 
 range = (2..int).to_a 
