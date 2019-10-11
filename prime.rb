@@ -16,20 +16,7 @@ if range.length == 1
   return true
 end
 
-range.each do |x|
- #factor = range2.any? {|y| int / y == x}
- i = 0 
- factor = nil 
- while i < range2 do 
-   if int / range2[i] == x 
-     factor = range2[i]
-   end 
-   i += 1 
- end 
- 
-  if factor != nil 
-    prime = false  
-  end
+
   
 end
 
